@@ -617,7 +617,7 @@ body{
 }
 .client__card {
     max-width: 648px;
-    min-height: 244px;
+    max-height: 244px;
     width: 100%;
     background-color: #fff;
 }
@@ -806,6 +806,7 @@ body{
 
     .client__card{
         max-width: 300px;
+        max-height: none;
         .client__rewiev{
             max-height: none;
             overflow: visible;
